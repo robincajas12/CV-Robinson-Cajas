@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap');
+:root{
+    --font-general:'Roboto Slab', serif;
+}
+body{
+    font-family: var(--font-general);
+    padding-top: 2%;
+}
+.container__img-me{
+    font-size: 3rem;
+    padding: 0;
+}
+.img-me{
+    object-fit: cover;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+}
+
+.aling-text{
+    padding: 3% 15%;
+}
+
+/* estilo de la session de habilidades */
+.table-tr-skills{
+    border-bottom: 1px solid #ddd;
+}
+.table-tr{
+    border-bottom: 1px solid #ddd;
+}
+@media (max-width:900px){
+    body{
+        text-align: center;
+    }
+    .about-me{
+        text-align: left;
+    }
+}
